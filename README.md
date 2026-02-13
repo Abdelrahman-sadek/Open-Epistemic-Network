@@ -46,10 +46,10 @@ graph TD
     A --> D[Diversity Modifier]
     A --> E[Time Factor]
     
-    B --> B1[log(stake)]
-    C --> C1[sqrt(reputation)]
-    D --> D1[0.2-1.5]
-    E --> E1[1 - exp(-0.01*days)]
+    B --> B1[Logarithmic Stake]
+    C --> C1[Square Root Reputation]
+    D --> D1[0.2 to 1.5]
+    E --> E1[Exponential Time]
 ```
 
 ### Influence Growth Chart

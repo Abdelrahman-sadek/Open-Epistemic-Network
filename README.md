@@ -42,9 +42,9 @@ The network uses a sophisticated influence model to determine validator weights:
 ```mermaid
 graph TD
     A[Influence Weight] --> B[Stake Component: log(stake)]
-    A --> C[Reputation Component: √(reputation)]
+    A --> C[Reputation Component: sqrt(reputation)]
     A --> D[Diversity Modifier: 0.2-1.5]
-    A --> E[Time Factor: 1 - exp(-0.01×days)]
+    A --> E[Time Factor: 1 - exp(-0.01*days)]
     
     B --> B1[Sublinear growth]
     C --> C1[Square root scaling]

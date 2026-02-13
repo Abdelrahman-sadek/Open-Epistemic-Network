@@ -174,7 +174,7 @@ sequenceDiagram
 
 ```bash
 # Clone and navigate to project
-cd KBN
+cd Open-Epistemic-Network
 
 # Create virtual environment
 python -m venv .venv
@@ -238,7 +238,7 @@ graph TD
 ## 🔍 Project Structure
 
 ```
-KBN/
+Open-Epistemic-Network/
 ├── core/                 # Core domain modules
 │   ├── identity/         # Validator registration + metadata
 │   ├── stake/            # Stake locking, decay, slashing

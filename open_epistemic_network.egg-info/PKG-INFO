@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: open-epistemic-network
+Version: 0.1.0
+Summary: Open Epistemic Network Protocol (no blockchain) – hybrid stake+reputation epistemic infrastructure.
+Requires-Python: >=3.11
+Requires-Dist: fastapi==0.115.0
+Requires-Dist: uvicorn[standard]==0.30.6
+Requires-Dist: pydantic==2.9.2
+Requires-Dist: SQLAlchemy==2.0.35
+Requires-Dist: psycopg2-binary==2.9.10
+Requires-Dist: alembic==1.13.3
+Requires-Dist: redis==5.1.0
+Requires-Dist: celery==5.4.0
+Requires-Dist: cryptography==43.0.3
+Requires-Dist: pyNaCl==1.5.0
+Requires-Dist: neo4j==5.26.0
+Requires-Dist: python-multipart==0.0.12
+Provides-Extra: dev
+Requires-Dist: pytest==8.3.3; extra == "dev"
+Requires-Dist: pytest-asyncio==0.24.0; extra == "dev"
+Requires-Dist: hypothesis==6.112.0; extra == "dev"
+Requires-Dist: locust==2.32.3; extra == "dev"
+Requires-Dist: httpx==0.27.2; extra == "dev"

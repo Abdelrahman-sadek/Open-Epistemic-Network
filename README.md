@@ -33,9 +33,9 @@ The Open Epistemic Network addresses these issues with a **hybrid stake-reputati
 
 The network uses a sophisticated influence model to determine validator weights:
 
-\[
-\text{Influence} = \log(\text{Stake}) \times \sqrt(\text{Reputation}) \times \text{Diversity} \times \text{Time Factor}
-\]
+```
+Influence = log(Stake) × sqrt(Reputation) × Diversity × Time Factor
+```
 
 ### Visualizing Influence Components
 
